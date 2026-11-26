@@ -1,0 +1,392 @@
+
+body {
+  font-family: "Times New Roman", serif;
+}
+
+.hero .hero-content h1,
+.hero .hero-content h1 .highlight,
+.hero .hero-content h1::after,
+.hero .hero-content h1::before,
+.hero .hero-content h1 .highlight::after,
+.hero .hero-content h1 .highlight::before {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.hero .hero-content h1,
+.hero .hero-content h1 .highlight {
+  font-size: 46px !important;
+  font-weight: 800 !important;
+  color: #1fd76c !important;
+ 
+}
+
+h2, .h2,
+.main h2, .section h2, .section-title h2, .headline,
+.about .section-title h2, .about .intro-content h2, .about .intro-content h2.headline,
+.skills .section-title h2 {
+  font-size: 34px !important;
+  font-weight: 700 !important;
+  color: #1fd76c !important;
+}
+
+
+h3, .h3,
+.main h3, .section h3, .skill-box h3,
+.skills .skill-box h3 {
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #1fd76c !important;
+}
+
+h4, .h4,
+.main h4, .section h4, .info-item h4, .info-item .content h4,
+.contact .info-item h4, .contact .info-item .content h4,
+#contact .info-item h4, #contact .info-item .content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1fd76c !important;
+}
+
+h5, .h5,
+.main h5, .section h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1fd76c !important;
+}
+
+h6, .h6,
+.main h6, .section h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1fd76c !important;
+}
+
+p, p.lead,
+.main p, .section p, .info-box p, .contact-form p,
+.resume .resume-item p, .resume .resume-item li {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #ffffff !important;
+}
+
+.btn,
+.btn-primary,
+.hero .btn-primary,
+.contact-form button[type="submit"] {
+  background-color:#1fd76c !important;
+  color: #000000 !important;
+  border: 2px solid #1fd76c !important;
+  border-radius: 12px !important;
+  padding: 12px 26px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+}
+
+.btn:hover,
+.btn-primary:hover,
+.hero .btn-primary:hover,
+.contact-form button[type="submit"]:hover {
+  background-color: #1fd76c !important;
+  border-color: #1fd76c !important;
+  color: #1fd76c !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px #1fd76c;
+}
+
+.btn:active,
+.btn-primary:active,
+.hero .btn-primary:active,
+.contact-form button[type="submit"]:active {
+  background-color: #1fd76c !important;
+  border-color: #1fd76c !important;
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.btn-outline,
+.btn-ghost,
+.hero .btn-outline,
+.about .btn-ghost {
+  background-color: transparent !important;
+  color: #1fd76c !important;
+  border: 2px solid #1fd76c !important;
+  border-radius: 12px !important;
+  padding: 12px 26px !important;
+  font-weight: 700 !important;
+  transition: all 0.25s ease;
+}
+
+.btn-outline:hover,
+.btn-ghost:hover,
+.hero .btn-outline:hover,
+.about .btn-ghost:hover {
+  background-color: #1fd76c !important;
+  color: #1fd76c !important;
+  transform: translateY(-2px);
+}
+
+.btn-outline:active,
+.btn-ghost:active,
+.hero .btn-outline:active,
+.about .btn-ghost:active {
+  background-color: #1fd76c !important;
+  border-color: #1fd76c !important;
+  transform: translateY(1px);
+}
+
+.portfolio .portfolio-filters li,
+.portfolio-filters li {
+  background-color: #1fd76c !important;
+  color: #101a20 !important;
+  border: 2px solid #1fd76c !important;
+  border-radius: 14px !important;
+  padding: 10px 24px !important;
+  font-weight: 700 !important;
+  transition: all 0.25s ease;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active,
+.portfolio-filters li.filter-active {
+  background-color: #1fd76c !important;
+  border-color: #1fd76c !important;
+  color: #101a20 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(77, 208, 225, 0.35);
+}
+
+.portfolio .portfolio-filters li:active,
+.portfolio-filters li:active {
+  background-color: #1fd76c !important;
+  border-color: #1fd76c !important;
+  color: #101a20 !important;
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+a,
+.main a:not(.btn):not(.btn-primary):not(.btn-outline):not(.btn-ghost),
+.link-underline,
+.footer .credits a {
+  color: #1fd76c !important;
+  text-decoration: underline dotted 2px !important;
+  text-underline-offset: 4px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+.main a:not(.btn):not(.btn-primary):not(.btn-outline):not(.btn-ghost):hover,
+.link-underline:hover,
+.footer .credits a:hover {
+  color: #1fd76c !important;
+  text-decoration: underline solid 2px !important;
+}
+
+a:active,
+.main a:not(.btn):not(.btn-primary):not(.btn-outline):not(.btn-ghost):active,
+.link-underline:active {
+  color: #1fd76c !important;
+}
+
+.about .intro-content {
+  padding: 30px !important;
+  margin-bottom: 24px !important;
+  border: 2px solid rgba(37, 221, 157, 0.5) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 14px 32px rgba(77, 208, 225, 0.16) !important;
+}
+
+.about .profile-photo {
+  border: 2px solid rgba(37, 221, 157, 0.5) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 14px 32px  rgba(37, 221, 157, 0.5) !important;
+}
+
+.skills .skill-box {
+  padding: 28px 22px !important;
+  margin-bottom: 16px !important;
+  border: 2px solid rgba(37, 221, 157, 0.45) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.4) !important;
+}
+
+.resume .resume-item {
+  padding: 28px !important;
+  margin-bottom: 32px !important;
+  border: 2px solid rgba(37, 221, 157, 0.5) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 14px 32px rgba(37, 221, 157, 0.16) !important;
+}
+
+.resume .education-item,
+.resume .experience-item {
+  padding-bottom: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.portfolio .portfolio-card,
+.portfolio .portfolio-item .portfolio-card {
+  padding: 10px !important;
+  margin-bottom: 12px !important;
+  border: 2px solid rgba(37, 221, 157, 0.5) !important;
+  border-radius: 22px !important;
+  overflow: hidden;
+  box-shadow: 0 14px 32px rgba(37, 221, 157, 0.16) !important;
+}
+
+.portfolio .portfolio-info {
+  padding: 22px !important;
+}
+
+.services .table-responsive,
+.contact .info-box,
+.contact .contact-form,
+#contact .info-box,
+#contact .contact-form {
+  padding: 26px !important;
+  border: 2px solid rgba(37, 221, 157, 0.45) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4) !important;
+}
+
+.progress {
+  height: 18px;                       
+  background-color: #1f2a44;        
+  border-radius: 4px;                 
+  border: 2px solid #06b137;        
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+}
+
+.progress .progress-bar {
+  background: repeating-linear-gradient(
+    45deg, #06b137, #6fc989 10px, #bfe6ca 10px, #06b137 20px
+  );                                 
+  border-radius: 0;
+}
+
+
+#scroll-top.scroll-top {
+  background-color: #1f2a44;        
+  border: 2px solid #06b137;         
+  border-radius: 8px;                 
+  width: 52px;                      
+  height: 52px;
+  box-shadow: 0 6px 16px rgba(6, 177, 55, 0.45); 
+}
+
+#scroll-top.scroll-top i {
+  color: #06b137;                     
+  font-size: 32px;
+}
+
+#scroll-top.scroll-top:hover {
+  background-color: #06b137;
+}
+#scroll-top.scroll-top:hover i {
+  color: #1f2a44;
+}
+
+.steps-list {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+}
+.steps-list li {
+  counter-increment: step;
+  position: relative;
+  padding: 10px 12px 10px 52px;
+  margin-bottom: 10px;
+  background: #f3f6fb;
+  border-radius: 8px;
+}
+.steps-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #1f2a44;
+  color: #0ec96c;
+  font-weight: 700;
+}
+
+.tech-list {
+  list-style: none;
+  padding-left: 0;
+}
+.tech-list > li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+.tech-list > li::before {
+  content: "\25C6";            /* ромб */
+  position: absolute;
+  left: 0;
+  color: #0ec96c;
+  font-size: 14px;
+}
+
+.tech-list ul {
+  list-style: none;
+  margin-top: 8px;
+  padding-left: 20px;
+  border-left: 3px dashed #0ec96c;
+}
+.tech-list ul li {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #5a6478;
+  padding-left: 18px;
+  position: relative;
+}
+.tech-list ul li::before {
+  content: "\2192";            
+  position: absolute;
+  left: 0;
+  color: #1f2a44;
+  font-style: normal;
+}
+
+.services-page .table thead th {
+  background-color: #1f2a44;
+  color: #0ec96c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  border-bottom: 3px solid #0ec96c;
+}
+
+.services-page .table.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #eef2f9;
+}
+.services-page .table.table-striped > tbody > tr:nth-of-type(even) > * {
+  --bs-table-bg-type: #ffffff;
+}
+.services-page .table tbody tr {
+  transition: background-color 0.2s;
+}
+.services-page .table tbody tr:hover > * {
+  --bs-table-bg-type: #d7e4db;
+}
+
+.services-page .table th,
+.services-page .table td {
+  padding: 14px 18px;
+  vertical-align: middle;
+}
+
+.steps-list li {
+  color: #1f2a44;
+}
